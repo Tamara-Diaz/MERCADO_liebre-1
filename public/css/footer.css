@@ -1,25 +1,33 @@
 footer.main-footer{
     text-align: center;
 }
-
-footer.main-footer nav{}
-
-footer.main-footer nav ul{}
-footer.main-footer nav ul li{
-    padding: 20px 40px 20px 40px;
-}
-footer.main-footer nav ul li i{
-    font-size: 2em;
-    margin-bottom: 10px;
+.footer i{
+    font-size: var(--iconos);
     color: var(--celeste);
+    text-align: center;
+    margin-top: 60px;
 }
-footer.main-footer nav ul li h3{
+
+.footer h4{
+    font-size: var(--descripciones);
     color: var(--grisOscuro);
-    margin-bottom: 0px;
-    /* font-size: var(--titleTextSize); */
+    text-align: center;
+    margin: 10px 0px -12px 0px;
 }
-footer.main-footer nav ul li p{
+
+.footer .parrafo{
+    font-size: var(--cuerpoDeTexto);
     color: var(--grisOscuro);
-    font-size: var(--bodyTextSize);
-    margin-top: 0px;
+    font-weight: normal;
+    text-align: center;
+    line-height: 15px;
+    padding: 0px 24px 0px 24px;
+}
+
+.footer .copy{
+    font-size: var(--cuerpoDeTexto);
+    color: var(--grisOscuro);
+    font-weight: normal;
+    line-height: 15px;
+    padding: 20px 0px 15px 15px;
 }

@@ -12,11 +12,12 @@
     "Roboto", sans-serif;
   
     /*Tamaños tipográficos*/
-    --bodyTextSize: 12px;
-    --titleTextSize: 24px;
-    --priceTextSize: 18px;
-    --discountTextSize: 16px;
-    --descriptionTextSize: 16px;
+    --cuerpoDeTexto: 12px;
+    --titularesVisitasOferta: 24px;
+    --precios: 18px;
+    --descuentos: 16px;
+    --descripciones: 16px;
+
   }
   
   *{
